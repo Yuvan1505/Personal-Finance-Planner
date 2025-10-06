@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Personal Financial Planner</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+<body>
+    <div id="app">
+        <header-component></header-component>
+        <sidebar-component></sidebar-component>
+        <main>
+            <section class="dashboard">
+                <h1>Dashboard</h1>
+                <div class="balance">
+                    <h2>Total Balance</h2>
+                    <p id="total-balance">$0.00</p>
+                </div>
+                <div class="income-expenses">
+                    <div class="income">
+                        <h3>Total Income</h3>
+                        <p id="total-income">$0.00</p>
+                    </div>
+                    <div class="expenses">
+                        <h3>Total Expenses</h3>
+                        <p id="total-expenses">$0.00</p>
+                    </div>
+                </div>
+                <div class="charts">
+                    <h3>Financial Overview</h3>
+                    <canvas id="income-expense-chart"></canvas>
+                </div>
+                <div class="ai-tips">
+                    <h3>AI Tips</h3>
+                    <p id="ai-tips">Your personalized financial tips will appear here.</p>
+                </div>
+            </section>
+        </main>
+        <footer-component></footer-component>
+    </div>
+    <script src="../scripts/dashboard.js"></script>
+</body>
+</html>

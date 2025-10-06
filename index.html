@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Financial Planner</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+    <div id="app">
+        <header id="header"></header>
+        <aside id="sidebar"></aside>
+        <main id="main-content">
+            <h1>Welcome to Your Personal Financial Planner</h1>
+            <p>Your journey to financial wellness starts here.</p>
+        </main>
+        <footer id="footer"></footer>
+    </div>
+    <script src="scripts/auth.js"></script>
+    <script src="scripts/dashboard.js"></script>
+    <script src="scripts/transactions.js"></script>
+    <script src="scripts/budget.js"></script>
+    <script src="scripts/insights.js"></script>
+    <script src="scripts/notifications.js"></script>
+    <script src="scripts/profile.js"></script>
+    <script>
+        // Load components dynamically
+        document.getElementById('header').innerHTML = '<!-- Header component will be loaded here -->';
+        document.getElementById('footer').innerHTML = '<!-- Footer component will be loaded here -->';
+        document.getElementById('sidebar').innerHTML = '<!-- Sidebar component will be loaded here -->';
+    </script>
+</body>
+</html>

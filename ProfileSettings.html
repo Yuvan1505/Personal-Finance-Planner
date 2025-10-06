@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings - Personal Financial Planner</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Header component will be injected here -->
+        </header>
+        <main>
+            <h1>Profile Settings</h1>
+            <form id="profile-settings-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="theme">Theme</label>
+                    <select id="theme" name="theme">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="notifications">Notification Preferences</label>
+                    <input type="checkbox" id="notifications" name="notifications" checked>
+                    <label for="notifications">Enable Notifications</label>
+                </div>
+                <button type="submit">Save Changes</button>
+            </form>
+        </main>
+        <footer>
+            <!-- Footer component will be injected here -->
+        </footer>
+    </div>
+    <script src="../scripts/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights & Rewards - Personal Financial Planner</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+<body>
+    <div id="app">
+        <header-component></header-component>
+        <sidebar-component></sidebar-component>
+        <main>
+            <h1>Insights & Rewards</h1>
+            <section class="insights">
+                <h2>Spending Trends</h2>
+                <div class="trends-chart">
+                    <!-- Chart will be rendered here -->
+                </div>
+            </section>
+            <section class="leaderboard">
+                <h2>Leaderboard</h2>
+                <ul>
+                    <li>User 1 - 1000 points</li>
+                    <li>User 2 - 800 points</li>
+                    <li>User 3 - 600 points</li>
+                </ul>
+            </section>
+            <section class="rewards">
+                <h2>Your Reward Points</h2>
+                <p>You have <strong>1500</strong> points available!</p>
+                <button class="redeem-button">Redeem Points</button>
+            </section>
+        </main>
+        <footer-component></footer-component>
+    </div>
+    <script src="../scripts/insights.js"></script>
+</body>
+</html>

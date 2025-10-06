@@ -1,0 +1,26 @@
+{
+  "name": "personal-financial-planner",
+  "version": "1.0.0",
+  "description": "A modern web application for personal financial planning, featuring budgeting, transaction tracking, and insights.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step can be added here'",
+    "test": "echo 'Test step can be added here'"
+  },
+  "keywords": [
+    "finance",
+    "budgeting",
+    "personal finance",
+    "planner"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
